@@ -1,0 +1,20 @@
+meshInterpTime 5000
+meshLoad mesh_2
+timerState -1
+modalSynthChangeOnNote 1
+modalSynthAmp 1
+modalSynth adsr 1000 10 0.8 10000
+modalSynthNote 33 80 5000 
+modalSynthNote 21
+modalSynthNote 18
+modalSynth q 10000
+modalSynth gain 50
+freezeSetTranspositions 5
+freezeState 1
+modalSynthChangeOnNote 0
+modalSynth adsr 10 10 0.5 2500
+scorePage 2 
+freezeAmp 0.75 120000
+freezeLength 3000
+percSoundVolume 0.1
+percSoundDensityRange 0. 0.075

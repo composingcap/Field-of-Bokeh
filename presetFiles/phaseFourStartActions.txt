@@ -1,0 +1,12 @@
+timerState -1
+onsetCounterReset bang
+freezeState 1
+freezeSetTransposition 13
+modalSynthChangeOnNote 0
+modalSynthNote 45 80 5000 
+modalSynthNote 30 90
+modalSynthNote 32 70
+scorePage 4
+meshLoad mesh_2
+percSoundVolume 0.05
+percSoundDensityRange 0. 0.05

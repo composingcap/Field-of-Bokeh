@@ -1,0 +1,5 @@
+freezeMessages grainFlow adsr 500 1000 0.25 2000
+freezeMessages grainFlow adsrSlide 1000 5000
+freezeState 1 
+freezeLength 2000
+meshLoad mesh_1

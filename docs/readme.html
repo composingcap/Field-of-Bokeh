@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html>
+    <style>
+        @font-face{
+            font-family: futura;
+            src: "./Futura Medium.tff";
+            
+        }
+        body{
+            font-family: futura;
+            background-color: lightgrey;
+            font-kerning: auto;
+            margin: 0px 50px 0px 50px;
+            font-size: 10pt;
+        }
+        .banner{
+            
+        }
+    
+    </style>
+	<head>
+		<title>Sliding Focus Documentation</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+	</head>
+
+	<body>
+        <div class= "banner">
+            <h1>Sliding Focus</h1>
+            <h2>Preface and documentation</h2>
+        </div>
+        
+        <div>
+        <h2>Requirements</h2>
+            <li>Max 8 and the Sliding Focus Max Project or the Slider Focus App</li>
+            <li>A stereo audio interface</li>
+            <li>A microphone for audio input</li>
+            <li>Four crotales pitched at D7, E7, G#7, and A7</li>        
+        </div>
+        
+                <div>
+        <h2>Running the piece</h2>
+                    <p>
+            You may run Sliding Focus either with an external score or with the intiegrated score within the max project. The integrated score will turn pages for you at each phase of the piece.</p>
+                    <p>
+                    This piece makes changes without the use of explicit triggers.  Scenes progress through each phase making subtle adjustment to the electronics while phases are articulated with a low swell. If you are using an external score, listen for these swells to move to a new phase. 
+                    </p>
+                    <p>
+                    Whenever there is a phase change, the max patch will toggle the "transition armed" button and the phase transition will occur on the next onset. 
+                    </p>
+            <h3>How the piece is tracked</h3>
+            <p>The piece will run itself based on both live input and a timer.  The metrics used in calculating a transition score are the number of onsets and a persieved density of material.  Here is a short description of how these work and are implemented.</p>
+            <p><b>Timer:</b> Counts time from the start of a phase.  
+            <br><b>Onset Tracker:</b> Attempts to track each hit of the crotales.  
+            <br><b>Density:</b> Uses a filtered amplitude tracker to see when the music has been consistantly loud or not. 
+        </p>
+        </div>
+        
+        <div>
+        <h2>Some notes</h2>
+        <li>When performing the piece make sure to let the electronic sounds inform your performance.  The electronics will not be exactly the same each time as they are based on the instrumental input sounds. </li>
+            <li>
+                Allow the music to breath and do not feel like you need to play all of the material on each page. The score is open and I want you to use it and the electonics 
+            </li>
+        </div>
+        <div>
+            <p>
+        If you have any questions about the piece, please feel free to contact me at christopherpoovey@gmail.com
+                </p>
+        </div>
+
+	</body>
+</html>

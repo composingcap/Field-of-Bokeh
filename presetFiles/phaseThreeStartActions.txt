@@ -1,0 +1,18 @@
+timerState -1
+onsetCounterReset bang
+freezeState 1
+freezeSetTransposition 8
+modalSynthSelectNotes 6
+generateModalNotes thresh 4
+meshInterpTime 10000
+meshLoad mesh_3
+modalSynthChangeOnNote 1
+modalSynthAmp 1
+modalSynth adsr 500 10 0.8 50000
+modalSynthNote 45 80 5000 
+modalSynthNote 21
+modalSynthNote 30
+modalSynthNote 20
+percSoundVolume 0
+percSoundDensityRange 0. 0.
+scorePage 3

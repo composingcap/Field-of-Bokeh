@@ -1,0 +1,8 @@
+allMeshes outGain 0 0
+clearAll bang
+timerState 0
+freezeState 0
+modalSynthState 0
+granulatorState 0
+scorePage 1
+freezeLength 2000

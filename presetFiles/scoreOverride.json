@@ -1,0 +1,25 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u354002391",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"phase2time" : [ 75.0 ],
+					"phase1time" : [ 45.0 ],
+					"phase3time" : [ 110.0 ],
+					"phase1onset" : [ 30.0 ],
+					"phase2onset" : [ 51.0 ],
+					"phase3onset" : [ 61.0 ],
+					"phase1scaler" : [ 1.0 ],
+					"phase2scaler" : [ 1.0 ],
+					"phase3scaler" : [ 1.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
