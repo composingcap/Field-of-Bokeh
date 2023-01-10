@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 792 612">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 18.41px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #231f20;
+        font-family: Lustria-Regular, Lustria;
+      }
+
+      .cls-2 {
+        font-size: 18px;
+      }
+
+      .cls-3 {
+        font-size: 54.84px;
+      }
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(120.41 179.06)"><tspan x="0" y="0">Field of Bokeh</tspan></text>
+  <text class="cls-1" transform="translate(333.65 217.22)"><tspan x="0" y="0">for percussion ensemble and live electronics</tspan></text>
+  <text class="cls-2" transform="translate(204.97 258.3)"><tspan x="0" y="0">Music and Electronics by Christopher Poovey</tspan></text>
+  <text class="cls-2" transform="translate(561.05 533.57)"><tspan x="0" y="0">Composed Winter 2022</tspan><tspan x="95.4" y="21.6">Oberlin, OH</tspan></text>
+</svg>

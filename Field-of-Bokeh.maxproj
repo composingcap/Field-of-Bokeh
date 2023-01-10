@@ -1,8 +1,8 @@
 {
-	"name" : "Fields of Bokeh",
+	"name" : "Field-of-Bokeh",
 	"version" : 1,
 	"creationdate" : 3673930374,
-	"modificationdate" : 3755294454,
+	"modificationdate" : 3756138804,
 	"viewrect" : [ 52.0, 333.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -15,7 +15,7 @@
 				"local" : 1,
 				"toplevel" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/GitHub/FieldsOfBokeh/Fields of Bokeh/patchers",
+					"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -45,7 +45,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/GitHub/FieldsOfBokeh/Fields of Bokeh/patchers",
+					"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -55,7 +55,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/GitHub/FieldsOfBokeh/Fields of Bokeh/patchers",
+					"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -73,7 +73,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/GitHub/FieldsOfBokeh/Fields of Bokeh/patchers",
+					"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -83,7 +83,7 @@
 				"kind" : "vectorimagefile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/GitHub/FieldsOfBokeh/Fields of Bokeh/Score",
+					"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Score",
 					"projectrelativepath" : "./Score"
 				}
 
@@ -93,7 +93,7 @@
 				"kind" : "vectorimagefile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/GitHub/FieldsOfBokeh/Fields of Bokeh/Score",
+					"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Score",
 					"projectrelativepath" : "./Score"
 				}
 
@@ -103,7 +103,7 @@
 				"kind" : "vectorimagefile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/GitHub/FieldsOfBokeh/Fields of Bokeh/Score",
+					"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Score",
 					"projectrelativepath" : "./Score"
 				}
 
@@ -115,6 +115,16 @@
 			"cp.grainFlow.voice.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
+			}
+,
+			"FOB_Score.js" : 			{
+				"kind" : "javascript",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/feildOfBokehScoreView",
+					"projectrelativepath" : "./feildOfBokehScoreView"
+				}
+
 			}
 
 		}
@@ -139,7 +149,7 @@
 				"kind" : "textfile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/GitHub/FieldsOfBokeh/Fields of Bokeh/presetFiles",
+					"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/presetFiles",
 					"projectrelativepath" : "./presetFiles"
 				}
 
@@ -149,7 +159,7 @@
 				"kind" : "textfile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/GitHub/FieldsOfBokeh/Fields of Bokeh/presetFiles",
+					"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/presetFiles",
 					"projectrelativepath" : "./presetFiles"
 				}
 
@@ -159,7 +169,7 @@
 				"kind" : "textfile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/GitHub/FieldsOfBokeh/Fields of Bokeh/presetFiles",
+					"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/presetFiles",
 					"projectrelativepath" : "./presetFiles"
 				}
 
@@ -169,7 +179,7 @@
 				"kind" : "textfile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/GitHub/FieldsOfBokeh/Fields of Bokeh/presetFiles",
+					"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/presetFiles",
 					"projectrelativepath" : "./presetFiles"
 				}
 
@@ -179,7 +189,7 @@
 				"kind" : "textfile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/GitHub/FieldsOfBokeh/Fields of Bokeh/presetFiles",
+					"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/presetFiles",
 					"projectrelativepath" : "./presetFiles"
 				}
 
@@ -189,7 +199,7 @@
 				"kind" : "textfile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/GitHub/FieldsOfBokeh/Fields of Bokeh/presetFiles",
+					"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/presetFiles",
 					"projectrelativepath" : "./presetFiles"
 				}
 
@@ -211,7 +221,7 @@
 				"kind" : "webpage",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/GitHub/FieldsOfBokeh/Fields of Bokeh/docs",
+					"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/docs",
 					"projectrelativepath" : "./docs"
 				}
 
