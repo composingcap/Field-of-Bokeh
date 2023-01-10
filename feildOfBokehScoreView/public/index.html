@@ -1,14 +1,16 @@
 <title>Field of Bokeh</title>
 <body style="text-align: center;">
-    <select name="player" id="playerSelect" style="position: absolute; width: 3%;" onchange="playerChange()">
+    <select name="player" id="playerSelect" style="position: absolute; width: 4.5%;" onchange="playerChange()">
         <option value="A">A</option>
         <option value="B">B</option>
         <option value="C">C</option>
         <option value="D">D</option>
     </select>
     <input type="range" min="0" max="1000" value="0" class="slider" id="transitionSlider" style="width: 95%; pointer-events: none; display: absolute; margin-left: 5%;">
+    <input type="range" min="0" max="1000" value="0" class="slider" id="progressSlider" style="width: 95%; pointer-events: none; margin-left: 5%;">
 
-    <image id = score src="./FOB_Score/Title.svg" style="max-width:100%; max-height:100%; margin: auto;"></image>
+    <image id = score src="./FOB_Score/Title.svg" style="max-width:100%; max-height:95%; margin: auto;"></image>
+
 </body>
 <script src="./socket.io.js"></script>
 <script  src="./FOB_scoreScript.js"></script>

@@ -1,13 +1,14 @@
 const express = require("express");
 const app = express();
-var http = require('http').createServer(app);
-const io = require("socket.io")(http);
+const https = require('http').createServer(app);
+const io = require("socket.io")(https);
 const port = 8086;
 const max = require("max-api");
-let page = "=Title"
+let page = "Title"
 
-http.listen(port, () => {
+https.listen(port, () => {
   console.log('listening on *:' + port);
+  max.outlet(getIPAddress()+":"+port);
 });
 
 app.use(express.static("public"));
@@ -27,6 +28,10 @@ max.addHandler("transition", (data)=>{
 
 });
 
+max.addHandler("progress", (data)=>{
+  io.emit("sceneProgress", data);
+
+});
 
 function setPage(){
   io.emit("turnTo", page);
@@ -34,3 +39,22 @@ function setPage(){
 
 setInterval(setPage, 10);
 
+
+max.addHandler("gethost", (data)=>{
+	
+	max.outlet(getIPAddress()+":"+port);
+	});
+
+function getIPAddress() {
+  var interfaces = require('os').networkInterfaces();
+  for (var devName in interfaces) {
+    var iface = interfaces[devName];
+
+    for (var i = 0; i < iface.length; i++) {
+      var alias = iface[i];
+      if (alias.family === 'IPv4' && alias.address !== '127.0.0.1' && !alias.internal)
+        return alias.address;
+    }
+  }
+  return '0.0.0.0';
+}

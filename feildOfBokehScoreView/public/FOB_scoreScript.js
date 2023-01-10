@@ -4,6 +4,7 @@ let lastPage = "Title"
 
 let player = "A";
 let slider = document.getElementById("transitionSlider")
+let progress = document.getElementById("progressSlider")
 socket.on("turnTo", (data)=>{ 
     if (data != lastPage){
         lastPage = data;
@@ -22,6 +23,10 @@ socket.on("turnTo", (data)=>{
 
 socket.on("transition",(data)=>{
     slider.value = data;
+});
+
+socket.on("sceneProgress",(data)=>{
+    progress.value = data;
 });
 
 function playerChange(){
