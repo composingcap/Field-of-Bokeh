@@ -16,3 +16,4 @@ modalSynthNote 20
 percSoundVolume 0
 percSoundDensityRange 0. 0.
 scorePage 3
+percSoundRingMod 0

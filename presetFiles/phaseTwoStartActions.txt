@@ -16,5 +16,6 @@ modalSynth adsr 10 10 0.5 2500
 scorePage 2 
 freezeAmp 0.75 120000
 freezeLength 3000
-percSoundVolume 0.1
+percSoundVolume 0.25
 percSoundDensityRange 0. 0.075
+percSoundRingMod 1

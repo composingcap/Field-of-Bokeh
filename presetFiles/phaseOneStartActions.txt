@@ -10,3 +10,4 @@ percSoundDensityRange 0. 0.1
 meshMessages mesh scatterRc 0.2
 meshMessages mesh wallRc 0.2
 meshVolume 0.25
+percSoundRingMod 0

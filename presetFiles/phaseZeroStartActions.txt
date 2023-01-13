@@ -6,3 +6,4 @@ modalSynthState 0
 granulatorState 0
 scorePage 1
 freezeLength 2000
+percSoundRingMod 0
