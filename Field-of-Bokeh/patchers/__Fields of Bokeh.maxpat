@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 433.0, 53.0, 579.0, 252.0 ],
+		"rect" : [ 160.0, 297.0, 579.0, 252.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -202,7 +202,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 720.0, 269.0, 50.0, 35.0 ],
-									"text" : "progress 250."
+									"text" : "progress 1250"
 								}
 
 							}
@@ -563,6 +563,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -4824,7 +4826,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 563.0, 216.0, 386.0, 86.0 ],
+													"patching_rect" : [ 563.0, 216.0, 388.0, 86.0 ],
 													"text" : "0.014051 0. 0.010285 1.324874 0.009296 2.094108 1. 5.398326 0.006779 6.397714 0.031049 7.192707 0.013806 8.082002 0.018179 8.503098 0.018161 8.887674 0.017244 9.238704 0.012273 9.952201 0.716457 10.625645 0.013534 12.963446 0.006801 13.581343 0.046085 14.197615 0.007397 14.932681 0.006409 16.147127 0.131255 19.626637 0.013329 20.837166 0.033147 23.29744 0.016451"
 												}
 
@@ -5653,13 +5655,13 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-13",
-													"linecount" : 7,
+													"linecount" : 8,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 425.0, 18.0, 34.0 ],
-													"text" : "4152704."
+													"text" : "19075647."
 												}
 
 											}
@@ -8273,13 +8275,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-51",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 524.0, 529.5, 95.0, 34.0 ],
-													"text" : "0.57652 0.576717"
+													"text" : "0.5 0.5"
 												}
 
 											}
@@ -9911,13 +9912,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-10",
-													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 327.0, 221.0, 50.0, 47.0 ],
-													"text" : "31 0.583043 0."
+													"text" : "9 0"
 												}
 
 											}
@@ -14204,7 +14204,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 745.5, 183.0, 60.0, 21.0 ],
-													"text" : "2 1 10000."
+													"text" : "2 1 50."
 												}
 
 											}
@@ -16713,7 +16713,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 412.0, 844.0, 69.0, 21.0 ],
-													"text" : "0.75 120000"
+													"text" : "1."
 												}
 
 											}
@@ -17291,8 +17291,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 379.0, 514.0, 110.0, 34.0 ],
-													"text" : "0. 0.274733 0.275312 0.449954"
+													"patching_rect" : [ 379.0, 514.0, 52.0, 34.0 ],
+													"text" : "1. 0. 0. 0."
 												}
 
 											}
@@ -17316,7 +17316,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 304.0, 513.0, 50.0, 21.0 ],
-													"text" : "24"
+													"text" : "34"
 												}
 
 											}
@@ -17340,7 +17340,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 256.75, 717.0, 100.5, 21.0 ],
-													"text" : "23 8 0."
+													"text" : "33 8 0."
 												}
 
 											}
@@ -17472,7 +17472,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 492.0, 99.0, 50.0, 21.0 ],
-													"text" : "9"
+													"text" : "5"
 												}
 
 											}
@@ -17495,8 +17495,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 776.0, 164.0, 74.0, 21.0 ],
-													"text" : "-17 -19 -25 -24"
+													"patching_rect" : [ 776.0, 164.0, 104.0, 21.0 ],
+													"text" : "-12 1 13 5 7 -7 -5 -13"
 												}
 
 											}
@@ -19320,7 +19320,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 96.0, 391.0, 179.0, 21.0 ],
-									"text" : "0.0141::peakamp 0.99704"
+									"text" : "0.0249::peakamp 0.261505"
 								}
 
 							}
@@ -19885,7 +19885,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 412.0, 197.0, 661.0, 574.0 ],
+						"rect" : [ 694.0, 182.0, 661.0, 574.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -19914,6 +19914,19 @@
 						"subpatcher_template" : "minimal",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 231.0, 462.0, 150.0, 19.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 208.0, 463.0, 115.0, 19.0 ],
+									"text" : "Speaker configuration:"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-11",
 									"maxclass" : "newobj",
@@ -19948,7 +19961,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 36.0, 331.0, 100.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 210.0, 393.0, 100.0, 21.0 ],
+									"presentation_rect" : [ 208.0, 488.0, 115.0, 21.0 ],
 									"varname" : "speakerMode"
 								}
 
@@ -20952,7 +20965,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-46",
-									"lastchannelcount" : 1,
+									"lastchannelcount" : 4,
 									"maxclass" : "mc.live.gain~",
 									"numinlets" : 1,
 									"numoutlets" : 4,
@@ -21018,9 +21031,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 21.0, 189.0, 53.0, 21.0 ],
-									"text" : "cascade~"
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 21.0, 189.0, 69.0, 21.0 ],
+									"text" : "mc.cascade~"
 								}
 
 							}
@@ -21256,8 +21269,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 21.0, 233.166667699813843, 62.0, 21.0 ],
-									"text" : "send~ input"
+									"patching_rect" : [ 21.0, 233.166667699813843, 78.0, 21.0 ],
+									"text" : "mc.send~ input"
 								}
 
 							}
@@ -21267,9 +21280,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 26.5, 2.0, 42.0, 21.0 ],
-									"text" : "adc~ 1"
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 26.5, 2.0, 86.0, 21.0 ],
+									"text" : "mc.adc~ 1 2 3 4"
 								}
 
 							}
@@ -28232,13 +28245,13 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-43",
-													"linecount" : 3,
+													"linecount" : 4,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 990.0, 747.0, 25.5, 47.0 ],
-													"text" : "1. 500"
+													"text" : "1.25 500"
 												}
 
 											}
@@ -30223,28 +30236,28 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "FOB_Score.js",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/feildOfBokehScoreView",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/feildOfBokehScoreView",
 				"patcherrelativepath" : "../feildOfBokehScoreView",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Test_SliderFocus_Part1.wav",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/media",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_cp.wgmesh.gui.maxpat",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_crotales.wgmesh.poly.maxpat",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -30252,104 +30265,104 @@
 , 			{
 				"name" : "_grainflow.poly.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Grainflow/patchers/_private",
-				"patcherrelativepath" : "../../../Packages/Grainflow/patchers/_private",
+				"patcherrelativepath" : "../../../../Packages/Grainflow/patchers/_private",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_poly.grainFlow.freezer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_poly.modalSynth.maxpat",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "breakPointCounter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cp.grainFlow.poly.maxpat",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cp.grainFlow.voice.gendsp",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/code",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cp.grainFlow~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cp.wgMesh.spaceMixer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cp.wgMeshGen.js",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/code",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cp.wgMesh~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftjit.++.maxpat",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftjit.bin2freq.maxpat",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftjit.fft.maxpat",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftjit.getPeaks.genjit",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/code",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftjit.getPeaks.maxpat",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -30370,7 +30383,7 @@
 			}
 , 			{
 				"name" : "freezeTranspositions.txt",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/presetFiles",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/presetFiles",
 				"patcherrelativepath" : "../presetFiles",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -30378,27 +30391,27 @@
 , 			{
 				"name" : "grainflow.voice.gendsp",
 				"bootpath" : "~/Documents/Max 8/Packages/Grainflow/code",
-				"patcherrelativepath" : "../../../Packages/Grainflow/code",
+				"patcherrelativepath" : "../../../../Packages/Grainflow/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainflow~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Grainflow/patchers",
-				"patcherrelativepath" : "../../../Packages/Grainflow/patchers",
+				"patcherrelativepath" : "../../../../Packages/Grainflow/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "input2Modes.maxpat",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modalNotes.txt",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/presetFiles",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/presetFiles",
 				"patcherrelativepath" : "../presetFiles",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -30411,7 +30424,7 @@
 			}
 , 			{
 				"name" : "phaseTransition.maxpat",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -30424,14 +30437,14 @@
 			}
 , 			{
 				"name" : "scoreOverride.json",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/presetFiles",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/presetFiles",
 				"patcherrelativepath" : "../presetFiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spearPartial2Modal.maxpat",
-				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/patchers",
+				"bootpath" : "~/Documents/Max 8/Pieces/Field-of-Bokeh/Field-of-Bokeh/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
