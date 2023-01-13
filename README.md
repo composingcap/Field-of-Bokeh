@@ -2,7 +2,7 @@
 
 ## How to open the electronics
 
-1. If you do not have Max 8, please download it from [Cycling'74](cycling74.com). You can run this piece in Max without a liscense.
+1. If you do not have Max 8, please download it from [Cycling'74](https://cycling74.com/downloads). You can run this piece in Max without a liscense.
 2. Download the most recent release of [Field of Bokeh](https://github.com/composingcap/Field-of-Bokeh/releases/latest)
 3. Unzip the folder to the location of your choosing. *Do not rename the folders inside of the release.*
 4. Open Field-of-Bokeh/Field-of-Bokeh.maxproj
