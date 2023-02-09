@@ -1,12 +1,18 @@
 timerState -1
+modalSynthAmp 1
+modalSynth vibDepth  0
+modalSynth attackMode  1
+modalSynth ramp  1
 onsetCounterReset bang
 freezeState 1
 freezeSetTransposition 13
 modalSynthChangeOnNote 0
-modalSynthNote 45 80 5000 
-modalSynthNote 30 90
-modalSynthNote 32 70
+modalSynthNote 45 100 5000 
+modalSynthNote 30 110
+modalSynthNote 32 110
+modalSynthNote 20 110
 scorePage 4
 meshLoad mesh_2
 percSoundVolume 0.05
 percSoundDensityRange 0. 0.05
+transitionBassNote 17

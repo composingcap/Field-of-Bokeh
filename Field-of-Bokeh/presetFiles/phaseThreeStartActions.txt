@@ -17,3 +17,6 @@ percSoundVolume 0
 percSoundDensityRange 0. 0.
 scorePage 3
 percSoundRingMod 0
+modalSynth ramp 100
+modalSynth attackMode 2
+transitionBassNote 20

@@ -7,3 +7,4 @@ granulatorState 0
 scorePage 1
 freezeLength 2000
 percSoundRingMod 0
+modalSynth vibDepth 0

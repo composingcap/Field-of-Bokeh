@@ -1,6 +1,9 @@
 meshInterpTime 5000
 meshLoad mesh_2
 timerState -1
+modalSynth attackMode 1
+modalSynth ramp 5
+modalSynth vibDepth 0
 modalSynthChangeOnNote 1
 modalSynthAmp 1
 modalSynth adsr 1000 10 0.8 10000
@@ -19,3 +22,4 @@ freezeLength 3000
 percSoundVolume 0.25
 percSoundDensityRange 0. 0.075
 percSoundRingMod 1
+transitionBassNote 21

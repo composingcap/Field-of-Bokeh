@@ -5,15 +5,19 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"phase2time" : [ 75.0 ],
-					"phase1time" : [ 45.0 ],
-					"phase3time" : [ 110.0 ],
-					"phase1onset" : [ 30.0 ],
-					"phase2onset" : [ 51.0 ],
-					"phase3onset" : [ 61.0 ],
+					"phase1onset" : [ 120.0 ],
+					"phase1time" : [ 180.0 ],
+					"phase2onset" : [ 357.0 ],
+					"phase2time" : [ 175.0 ],
+					"phase3onset" : [ 220.0 ],
+					"phase3onset[1]" : [ 50.0 ],
+					"phase3time" : [ 125.0 ],
+					"phase3time[1]" : [ 85.0 ],
 					"phase1scaler" : [ 1.0 ],
-					"phase2scaler" : [ 1.0 ],
-					"phase3scaler" : [ 1.0 ]
+					"phase2scaler" : [ 1.75 ],
+					"phase3scaler" : [ 1.0 ],
+					"phase4scaler" : [ 0.5 ],
+					"onsetThresh" : [ 0.15 ]
 				}
 
 			}

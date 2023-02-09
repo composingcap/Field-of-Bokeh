@@ -6,8 +6,11 @@ scorePage 1
 freezeAmp 0
 freezeLength 2000
 percSoundVolume 0.25
-percSoundDensityRange 0. 0.1
+percSoundDensityRange 0. 0.2
 meshMessages mesh scatterRc 0.2
 meshMessages mesh wallRc 0.2
-meshVolume 0.25
+meshVolume 0.5
 percSoundRingMod 0
+modalSynth attackMode 1
+modalSynth ramp 5
+modalSynth vibDepth 0
